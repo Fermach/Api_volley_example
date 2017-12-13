@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.iesvirgendelcarmen.noticiasdeportes.UsersDetalleActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+    <TextView
+        android:id="@+id/detalleID"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="12sp"
+        android:text="ID:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+         />
+
+    <TextView
+        android:id="@+id/detalleNombre"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="12sp"
+        android:text="Nombre:"/>
+
+
+    <TextView
+        android:id="@+id/detalleApellido"
+        android:layout_width="371dp"
+        android:layout_height="30dp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="12sp"
+        android:text="Apellido:" />
+
+    <TextView
+        android:id="@+id/detalleEmail"
+        android:layout_width="371dp"
+        android:textColor="@color/colorAccent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="12sp"
+        android:text="Email:" />
+
+</LinearLayout>
